@@ -1,0 +1,96 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-container {
+  display: flex;
+}
+.contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #fff;
+  height: 100vh;
+  width: 25vw;
+  min-width: 25vw;
+  border-right: 1px solid #bec1bb;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  min-width: 30vw;
+  background-color: #e8ebe4;
+}
+.principal img {
+  width: 25%;
+  padding: 2rem;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #bec1bb;
+}
+
+.barra-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.contactos img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.inactivo {
+  color: #bec1bb;
+  font-size: small;
+}
+.pp {
+  padding: 0.5rem;
+  color: #bec1bb;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+}
+.boton button {
+  color: white;
+  background-color: #a491d2;
+  height: 3rem;
+  width: 70%;
+  margin: 2rem;
+}
+.descripcion {
+  font-size: small;
+}
+.usuarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+  height: 3rem;
+  padding: 1rem;
+}
+h1 {
+  font-size: 50px;
+}
+.principal p {
+  font-size: 22px;
+}
+.maria {
+  align-items: start;
+}
